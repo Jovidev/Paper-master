@@ -1,0 +1,9 @@
+const Overview=`
+Bem-vindo ao nosso e-commerce, sua loja completa para tudo o que você precisa para transformar sua casa em um lar acolhedor e funcional. Desde móveis elegantes e modernos até utensílios domésticos práticos e inovadores, oferecemos uma ampla gama de produtos que atendem a todas as suas necessidades e estilos. Nosso compromisso é proporcionar a você uma experiência de compra online simples, segura e agradável, com opções que vão desde artigos de decoração, passando por eletrodomésticos de última geração, até itens essenciais para o dia a dia. Aqui, você encontra tudo em um só lugar, facilitando a criação de ambientes únicos e personalizados.
+
+Nosso diferencial está na conveniência e na qualidade dos serviços que oferecemos. Contamos com uma equipe de atendimento ao cliente dedicada e pronta para auxiliar em cada etapa da sua compra, garantindo que você receba todo o suporte necessário para tomar as melhores decisões. Além disso, nossos serviços de entrega rápida e segura permitem que seus produtos cheguem até você no menor tempo possível e em perfeitas condições. Estamos sempre atualizando nosso catálogo com as últimas tendências e inovações do mercado, para que você possa ter acesso ao que há de mais moderno e funcional para sua casa.
+
+Acreditamos que um lar deve ser um reflexo da personalidade e do estilo de vida de quem o habita. Por isso, estamos empenhados em oferecer uma vasta seleção de produtos de alta qualidade, com preços competitivos e diversas facilidades de pagamento. Seja você um amante da decoração, um chef de cozinha amador ou apenas alguém que procura por praticidade no dia a dia, temos certeza de que encontrará exatamente o que precisa em nosso e-commerce. Nossa missão é tornar sua vida mais fácil e seu lar mais aconchegante, proporcionando uma experiência de compra que exceda suas expectativas.`;
+
+
+export default Overview;

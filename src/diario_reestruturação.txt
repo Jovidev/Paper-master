@@ -1,0 +1,71 @@
+
+
+1 instalar o node.js no site https://nodejs.org/en
+2 corrigir o as variáveis de ambiente; Alterar o "Path"
+3 confirgurar react app, na pasta do projeto: npx create-react-app <nomeprojeto> cd <nomeprojeto>
+4 instalar o yarn: yarn install  # ou npm install
+5 iniciar o servidor, na pasta onde se encontra o packge .json: yarn start
+6 istalar o o StyledComponents: yarn add styled-components 
+
+-------Resumo--------segundo clone---------------
+
+1-Instalar o React Router: Use yarn add react-router-dom ou npm install react-router-dom.
+2-Estruturar o Projeto: Organize seus arquivos em pastas de acordo com o padrão MVC.
+3-Definir Rotas: Crie um arquivo routes.js para definir suas rotas.
+4-Atualizar App.js: Importe e use as rotas definidas.
+5-Criar as Views: Crie os componentes para suas páginas principais.
+6-Implementar Controllers e Models: Crie funções e classes que encapsulam a lógica e os dados da sua aplicação.
+
+-----------------------------------
+
+segundo clone
+
+1- acesse o repositório do github copie o link do projeto
+
+2- inicie o VS Code e clique na opção de clonar e cole o endereço copiado e aguarde a finalização clone!
+
+3- depois de clonado o repositório, acesse, no terminal, a pasta raiz do seu projeto:
+cd "C:\Users\flavi\OneDrive\Documentos\PROGRAMAÇÃO\SEMINÁRIO 2024\Segundo Clone\Paper"
+
+4- digite no terminal < yarn start > e pressione enter!
+
+5- Para criação de rotas é preciso instalar React Router. Digite no terminal: yarn add react-router-dom 
+
+6 Para seguir o conceito de organização MVC, insera no projeto as pastas:"components", "controler", "models", "views"
+
+7 Para que haja uma organização das routas, crie um arquivo "routes";
+
+8 Criar os arquivos "Home.js", "Login.js" e "Dashboard.js", dentro da pasta Routes!
+
+9 Criar arquivo "UserController.js" dentro da pasta "controllers" que contenham as funções de lógica do negócio. Exemplo criar usuario
+
+10 Criar arquivo "UserModels.js" dentro da pasta "models" que lida com os dados das classse de objetos da aplicação; 
+---------------------------reestruturação--------------------------
+
+src/
+│
+├── assets/          # Arquivos estáticos (imagens, ícones, etc)
+├── components/      # Componentes reutilizáveis
+├── controllers/     # Funções que controlam a lógica do aplicativo
+│   └── userController.js
+├── views/           # Componentes de UI principais
+│   └── Home.js
+├── App.js           # Componente principal
+├── GlobalStyle.js   # Estilos globais
+├── index.js         # Ponto de entrada do React
+└── routes.js        # Definição das rotas
+
+
+1- limpar o App,js, pois é importante que ele esteja apenas com as os ângulos essenciais para chamar as rotas;
+
+2 - adicionar os framentos do código para o arquivo UserController.js para que a página funcione com a mesma visão anterior.
+
+3 - adicionar os framentos do código para o arquivo Home.js para que a página funcione com a mesma visão anterior.
+
+
+-------------Atualizar  react-router-dom versão 6.-------------------
+
+npm install react-router-dom@latest
+
+------------importar bootstrap------------------}
+digitar no terminal: npm install react-bootstrap bootstrap
